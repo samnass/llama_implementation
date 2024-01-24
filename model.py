@@ -36,6 +36,7 @@ class Transformer(nn.Module):
          self.norm = RMSNorm(args.dim , eps=args.norm_eps)
          self.output = dd
              
-             
+    def forward(self):
+                  
        
         
